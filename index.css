@@ -1,0 +1,108 @@
+@font-face {
+    src: url("CursedTimerULiL.ttf");
+    font-family: digi;
+}
+
+body {
+    margin: 0;
+}
+
+
+.container {
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 360px;
+    background: #36013f;
+}
+
+h3 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 149px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #EEEEEE;
+    margin-top: 68px;
+    margin-bottom: 21px;
+}
+
+#score-box, #score-box2 {
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    margin: 0px;
+    background: #080001;
+    border-radius: 5px;
+    
+    font-family: digi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    text-align: center;
+    line-height: 135px;
+    color: yellow;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 26px;
+    
+}
+
+#btn1, #btn2, #btn3 {
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    background: #36013f;
+
+    border: 2px solid lightgoldenrodyellow;
+    border-radius: 5px;
+    
+    left: 89px;
+    top: 280px;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+
+    text-align: center;
+
+    color: lightgoldenrodyellow;
+}
+
+.bottom-container {
+    margin: 0px;
+    text-align: center;
+    width: 575px;
+    height: 100px;
+    background: #36013f;
+    
+}
+
+#rst-btn {
+    background: yellow;
+
+    border: 3px solid #080001;
+    border-radius: 5px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    /* or 155% */
+
+    text-align: center;
+
+    color: #080001;
+}
+
